@@ -6,7 +6,7 @@ import './index.css';
     render() {
       return (
         <button 
-          className="square" 
+          className="square"
           onClick={() =>  this.props.onClick()}>{this.props.value}
         </button>
       );
